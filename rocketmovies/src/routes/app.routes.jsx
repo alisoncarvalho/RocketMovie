@@ -13,5 +13,6 @@ export function AppRoutes(){
             <Route path="/new" element={<New/>}/>
             <Route path="/profile" element={<Profile/>}/>
         </Routes>
+        
     )
 }
