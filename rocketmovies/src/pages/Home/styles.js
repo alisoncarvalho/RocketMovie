@@ -49,7 +49,7 @@ export const Content = styled.div`
         margin-bottom: 24px;
         
 
-        >h1{
+        h1{
             font-size: 24px;
             margin-bottom: 8px;
         }
@@ -65,6 +65,11 @@ export const Content = styled.div`
 
         .tag{
             background-color:${({theme})=>theme.COLORS.GRAY_100};
+        }
+
+        a{
+            text-decoration: none;
+            color: ${({theme})=>theme.COLORS.WHITE};
         }
         
         
