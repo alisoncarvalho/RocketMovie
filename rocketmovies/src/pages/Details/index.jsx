@@ -3,6 +3,7 @@ import { Button } from "../../components/Button";
 import {FiArrowLeft , FiWatch, FiStar} from "react-icons/fi"
 import {Tag} from "../../components/Tag"
 import { Header } from "../../components/Header";
+import { Link } from "react-router-dom";
 
 
 export function Details(){
@@ -11,7 +12,7 @@ export function Details(){
       <Header/>      
       <main>
       <Content>
-      <a href="#"> <FiArrowLeft/> Voltar</a>
+      <Link to="/"> <FiArrowLeft/> Voltar</Link>
       <h1>Interestelar <FiStar/><FiStar/><FiStar/><FiStar/><FiStar/></h1>
       <h3><img src="https://github.com/alisoncarvalho.png" alt="" /> Por Alison Carvalho <FiWatch/> 02/01/2023 às 23:31</h3>
 
